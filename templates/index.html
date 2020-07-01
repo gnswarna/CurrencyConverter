@@ -1,0 +1,40 @@
+<!doctype html>
+
+<head>
+<link rel="stylesheet" href="{{ url_for('static', filename = '/CSS/main.css') }}">
+<script type = "text/javascript" src = "{{ url_for('static', filename = '/JS/jquery.min.js') }}" ></script>
+<script type = "text/javascript" src = "{{ url_for('static', filename = '/JS/main.js') }}" ></script>
+   
+</head>
+<html>
+   <body>
+	<div class='top_bar'>
+      		<h1 >Welcome To Currency converter portal</h1>
+	</div>
+
+	<div class='maindiv'>
+
+		<div class='subdiv' >
+			<table>
+				
+				<tr>
+					<td><input type="text" placeholder="Amount" name="amount" value=1 oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"  required id='amount'></td>
+					<td >
+						<select  class="select-selected"  id="currency" placeholder="choose">
+							<option value="USD">Dollar</option>
+							<option value="EUR">Euro</option>
+							<option value="JPY">Yen</option>
+						</select>
+					</td>
+					<td><input type="button" id='convert_but' onclick='onconvertbutclick()' value="Convert"></td>
+				</tr>
+			
+				<tr><td colspan=3><p id="show_convert"></p></td></tr>
+			</table>
+		</div>
+
+	</div>
+
+		
+   </body>
+</html>

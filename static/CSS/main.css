@@ -1,0 +1,119 @@
+body{
+	height: 100%;
+}
+.top_bar {
+	background-color: white;
+	color: 	#007BAD;
+	width: 90%;
+	height: 25px;
+	margin: 0px auto 0px auto;
+	text-align:center;
+}
+
+h1{
+	margin:0px;
+	font-size: 22px;
+}
+
+
+
+
+.hide{
+	display:none;
+}
+
+.name{
+	font-size:14px;
+	color:#e1d800;
+}
+
+.maindiv{
+	background-color:white;
+	color: gray;
+	width: 88.5%;
+	height: 85%;
+	margin: 0px auto;
+	position: absolute; 
+   	top: 80px; 
+	left:5.7%;
+	overflow: hidden;
+}
+
+.subdiv{
+	background-color: white;
+	color: gray;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	position: absolute; 
+	overflow-x: auto;
+	top:0;
+}
+
+table {
+  	width: 80%;
+	margin: 10px auto;
+}
+
+td {
+  	margin: 5px;
+	text-align: right;
+	width:30%;
+	color:black;
+}
+
+th {
+  	padding: 15px 25px;
+	text-align: center;
+	color: #007BAD;
+	font-size: 18px;
+}
+
+input[type=text]{
+	float: right;
+	width:50px;
+	padding: 10px;
+	margin:5px;
+}
+
+
+p{
+	text-align: center;
+	padding: 0px;
+	width:100%;
+	margin:5px;
+}
+
+input[type=button]{
+	float: left;
+	width:150px;
+	margin:5px;
+	color: white;
+	background-color: #007BAD;
+	border: none;		
+	padding: 10px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 14px;
+  	cursor: pointer;
+}
+
+.floatleft{
+	float: left;
+}
+
+select {
+        float: left;
+	width:100px;
+	margin:5px;
+	color: white;
+	background-color: #007BAD;
+	border: none;		
+	padding: 10px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 14px;
+  	cursor: pointer;
+      }
